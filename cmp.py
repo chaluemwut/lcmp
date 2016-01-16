@@ -248,7 +248,7 @@ class CmpMl(object):
                 data_rec.append(total_time)
                 data_rec.append(len(y_pred))
                 data_rec.append(self.get_model_parameter(ml_c))
-                predict_file = 'predict_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
+                predict_file = 'predict/{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
                 pickle.dump(y_pred, open(predict_file, 'wb'))
                 
             all_data_rec.append(data_rec)

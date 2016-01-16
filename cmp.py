@@ -15,6 +15,7 @@ from sklearn.metrics import accuracy_score, f1_score
 # 1. fix test size at 25%
 # 2. after pass crossvalidation use train new model
 # 3. keep parameter with use
+# 4. kepp all data in machine learning process
 
 log = logging.getLogger('data')
 data_size = [0.25, 0.50, 0.75]
@@ -205,7 +206,6 @@ class CmpMl(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-#         x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
         all_data_rec = []
         for i in range(0, Config.reperating_loop):
             log.info('*********** loop : {}'.format(i))
@@ -221,27 +221,32 @@ class CmpMl(object):
                     x_train, x_bank, y_train, y_bank = train_test_split(x_train_org, y_train_org, test_size=0.333, random_state=ran_num)
                 elif d_size == 0.75:
                     x_train, x_bank, y_train, y_bank = train_test_split(x_train_org, y_train_org, test_size=0.666, random_state=ran_num)
-                
-                print len(y_train)
-                y_0 = [xx for xx in y_train if xx==0]
-                y_1 = [xx for xx in y_train if xx==1]
-                print len(y_0), len(y_1) 
                     
-#                 ml_lst = self.gen_ml_lst(d_size, self.dataset_name)[self.ml_name]
-#                 ml_cross = self.cross_validation(ml_lst, x_train, y_train)
-#                 ml_new_train = self.copy_model(ml_cross)
-#                 ml_c = copy.deepcopy(ml_new_train)
-#                 ml_c.fit(x_train, y_train)
-#                 start = time.time()
-#                 y_pred = ml_c.predict(x_test_org)
-#                 total_time = time.time() - start
-#                 acc = accuracy_score(y_test_org, y_pred)
-#                 fsc = f1_score(y_test_org, y_pred)
-#                 data_rec.append(acc)
-#                 data_rec.append(fsc)
-#                 data_rec.append(total_time)
-#                 data_rec.append(len(y_pred))
-#                 data_rec.append(self.get_model_parameter(ml_c))
+                file_name_x_train = 'x_train_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
+                file_name_y_train = 'y_train_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
+                file_name_x_test = 'x_test_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
+                file_name_y_test = 'y_test_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
+                folder_name = 'training_data/'
+                pickle.dump(x_train, folder_name+file_name_x_train)
+                pickle.dump(y_train, folder_name+file_name_y_train)
+                pickle.dump(x_test_org, folder_name+file_name_x_test)
+                pickle.dump(y_test_org, folder_name+file_name_y_test)
+                
+                ml_lst = self.gen_ml_lst(d_size, self.dataset_name)[self.ml_name]
+                ml_cross = self.cross_validation(ml_lst, x_train, y_train)
+                ml_new_train = self.copy_model(ml_cross)
+                ml_c = copy.deepcopy(ml_new_train)
+                ml_c.fit(x_train, y_train)
+                start = time.time()
+                y_pred = ml_c.predict(x_test_org)
+                total_time = time.time() - start
+                acc = accuracy_score(y_test_org, y_pred)
+                fsc = f1_score(y_test_org, y_pred)
+                data_rec.append(acc)
+                data_rec.append(fsc)
+                data_rec.append(total_time)
+                data_rec.append(len(y_pred))
+                data_rec.append(self.get_model_parameter(ml_c))
                 
             all_data_rec.append(data_rec)
         result[self.dataset_name] = all_data_rec
@@ -267,6 +272,6 @@ def maincmp(ml_name, dataset_name):
     log.info('end')
 
 if __name__ == '__main__':
-    ml_name = ''#sys.argv[1]
-    dataset_name = 'vehicle'#sys.argv[2]
+    ml_name = sys.argv[1]
+    dataset_name = sys.argv[2]
     maincmp(ml_name, dataset_name)

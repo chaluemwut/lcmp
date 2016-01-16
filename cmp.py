@@ -206,6 +206,7 @@ class CmpMl(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
+        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
         all_data_rec = []
         for i in range(0, Config.reperating_loop):
             log.info('*********** loop : {}'.format(i))
@@ -222,15 +223,15 @@ class CmpMl(object):
                 elif d_size == 0.75:
                     x_train, x_bank, y_train, y_bank = train_test_split(x_train_org, y_train_org, test_size=0.666, random_state=ran_num)
                     
-                file_name_x_train = 'x_train_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
-                file_name_y_train = 'y_train_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
-                file_name_x_test = 'x_test_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
-                file_name_y_test = 'y_test_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
                 folder_name = 'training_data/'
-                pickle.dump(x_train, folder_name+file_name_x_train)
-                pickle.dump(y_train, folder_name+file_name_y_train)
-                pickle.dump(x_test_org, folder_name+file_name_x_test)
-                pickle.dump(y_test_org, folder_name+file_name_y_test)
+                file_name_x_train = '{}x_train_{}_{}_{}_{}'.format(folder_name, self.ml_name, self.dataset_name, d_size, i)
+                file_name_y_train = '{}y_train_{}_{}_{}_{}'.format(folder_name, self.ml_name, self.dataset_name, d_size, i)
+                file_name_x_test = '{}x_test_{}_{}_{}_{}'.format(folder_name, self.ml_name, self.dataset_name, d_size, i)
+                file_name_y_test = '{}y_test_{}_{}_{}_{}'.format(folder_name, self.ml_name, self.dataset_name, d_size, i)
+                pickle.dump(x_train, open(file_name_x_train, 'wb'))
+                pickle.dump(y_train, open(file_name_y_train, 'wb'))
+                pickle.dump(x_test_org, open(file_name_x_test, 'wb'))
+                pickle.dump(y_test_org, open(file_name_y_test, 'wb'))
                 
                 ml_lst = self.gen_ml_lst(d_size, self.dataset_name)[self.ml_name]
                 ml_cross = self.cross_validation(ml_lst, x_train, y_train)
@@ -248,7 +249,7 @@ class CmpMl(object):
                 data_rec.append(len(y_pred))
                 data_rec.append(self.get_model_parameter(ml_c))
                 predict_file = 'predict_{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
-                pickle.dump(y_pred, predict_file)
+                pickle.dump(y_pred, open(predict_file, 'wb'))
                 
             all_data_rec.append(data_rec)
         result[self.dataset_name] = all_data_rec

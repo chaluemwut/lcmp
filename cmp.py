@@ -198,47 +198,30 @@ class CmpMl(object):
                 result_idx.append(i)
         x = np.delete(x, result_idx, axis=1)
         return x, y
-    
-    def gen_training_data(self):
-        all_dataset = ['heart', 'letter', 'austra', 'german', 'sat', 'segment', 'vehicle']
-        dataset_lst = self.load_dataset()
-        for data_name in all_dataset:
-            print 'data name ',data_name
-            data_value = dataset_lst[data_name]
-            x_data = data_value[0]
-            y_data = data_value[1]
-            for i in range(0, Config.reperating_loop):
-                ran_num = random.randint(1, 100)
-                x_train_org, x_test_org, y_train_org, y_test_org = train_test_split(x_data, y_data, test_size=0.25, random_state=ran_num)
-                for d_size in data_size:
-                    ran_num2 = random.randint(1, 100)
-                    if d_size == 0.25:
-                        x_train = copy.deepcopy(x_train_org)
-                        y_train = copy.deepcopy(y_train_org)
-                    elif d_size == 0.5:
-                        x_train, x_bank, y_train, y_bank = train_test_split(x_train_org, y_train_org, test_size=0.333, random_state=ran_num2)
-                    elif d_size == 0.75:
-                        x_train, x_bank, y_train, y_bank = train_test_split(x_train_org, y_train_org, test_size=0.666, random_state=ran_num2)
                         
-                    folder_name = 'training_data/'
-                    file_name_x_train = '{}x_train_{}_{}_{}'.format(folder_name, data_name, d_size, i)
-                    file_name_y_train = '{}y_train_{}_{}_{}'.format(folder_name, data_name, d_size, i)
-                    file_name_x_test = '{}x_test_{}_{}_{}'.format(folder_name, data_name, d_size, i)
-                    file_name_y_test = '{}y_test_{}_{}_{}'.format(folder_name, data_name, d_size, i)
-                    pickle.dump(x_train, open(file_name_x_train, 'wb'))
-                    pickle.dump(y_train, open(file_name_y_train, 'wb'))
-                    pickle.dump(x_test_org, open(file_name_x_test, 'wb'))
-                    pickle.dump(y_test_org, open(file_name_y_test, 'wb'))                             
-
-    def process_byrange(self, data_range):
+    def process_gen_training_data(self, range_index=None):
         result = {}
         log.info('***** start ' + self.dataset_name)
+        data_range = None
+        if range_index == 1:
+            data_range = range(0, 10)
+        elif range_index == 2:
+            data_range = range(10, 20)
+        elif range_index == 3:
+            data_range = range(20, 30)
+        elif range_index == 4:
+            data_range = range(30, 40)
+        elif range_index == 5:
+            data_range = range(40, 50)
+        elif range_index == None:
+            data_range = range(0, Config.reperating_loop)  
+            
         all_data_rec = []
         for i in data_range:
             log.info('*********** loop : {}'.format(i))
             data_rec = []
             for d_size in data_size:
-                folder_name = 'training_data/'
+                folder_name = Config.training_data_path
                 x_train = pickle.load(open('{}x_train_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i),'rb'))
                 y_train = pickle.load(open('{}y_train_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
                 x_test_org = pickle.load(open('{}x_test_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
@@ -263,43 +246,10 @@ class CmpMl(object):
                 
             all_data_rec.append(data_rec)
         result[self.dataset_name] = all_data_rec
-        pickle.dump(result, open('result/{}_{}.obj'.format(self.ml_name, self.dataset_name), 'wb'))
-        log.info('************** end ')
-                    
-    def process_gen_training_data(self):
-        result = {}
-        log.info('***** start ' + self.dataset_name)
-        all_data_rec = []
-        for i in range(0, Config.reperating_loop):
-            log.info('*********** loop : {}'.format(i))
-            data_rec = []
-            for d_size in data_size:
-                folder_name = 'training_data/'
-                x_train = pickle.load(open('{}x_train_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i),'rb'))
-                y_train = pickle.load(open('{}y_train_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
-                x_test_org = pickle.load(open('{}x_test_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
-                y_test_org = pickle.load(open('{}y_test_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
-                ml_lst = self.gen_ml_lst(d_size, self.dataset_name)[self.ml_name]
-                ml_cross = self.cross_validation(ml_lst, x_train, y_train)
-                ml_new_train = self.copy_model(ml_cross)
-                ml_c = copy.deepcopy(ml_new_train)
-                ml_c.fit(x_train, y_train)
-                start = time.time()
-                y_pred = ml_c.predict(x_test_org)
-                total_time = time.time() - start
-                acc = accuracy_score(y_test_org, y_pred)
-                fsc = f1_score(y_test_org, y_pred)
-                data_rec.append(acc)
-                data_rec.append(fsc)
-                data_rec.append(total_time)
-                data_rec.append(len(y_pred))
-                data_rec.append(self.get_model_parameter(ml_c))
-                predict_file = 'predict/{}_{}_{}_{}'.format(self.ml_name, self.dataset_name, d_size, i)
-                pickle.dump(y_pred, open(predict_file, 'wb'))
-                
-            all_data_rec.append(data_rec)
-        result[self.dataset_name] = all_data_rec
-        pickle.dump(result, open('result/{}_{}.obj'.format(self.ml_name, self.dataset_name), 'wb'))
+        if range_index == None:
+            pickle.dump(result, open('result/{}_{}.obj'.format(self.ml_name, self.dataset_name), 'wb'))
+        else:
+            pickle.dump(result, open('result/{}_{}_{}.obj'.format(self.ml_name, self.dataset_name, range_index), 'wb'))
         log.info('************** end ')
 
 def initlog():
@@ -320,8 +270,6 @@ def maincmp(ml_name, dataset_name):
     log.info('end')
 
 if __name__ == '__main__':
-#     cmpml = CmpMl('','')
-#     cmpml.gen_training_data()
-    ml_name = 'nb'#sys.argv[1]
-    dataset_name = 'heart'#sys.argv[2]
+    ml_name = sys.argv[1]
+    dataset_name = sys.argv[2]
     maincmp(ml_name, dataset_name)

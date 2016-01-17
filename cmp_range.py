@@ -25,4 +25,5 @@ if __name__ == '__main__':
     ml_name = sys.argv[1]
     dataset_name = sys.argv[2]
     range_index = sys.argv[3]
+    print '{}*****'.format(range_index)
     maincmp(ml_name, dataset_name, range_index)

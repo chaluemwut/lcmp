@@ -52,3 +52,731 @@
 2016-01-16 22:03:42,720 - data - INFO - *********** loop : 49
 2016-01-16 22:03:42,721 - data - INFO - ************** end 
 2016-01-16 22:03:42,721 - data - INFO - end
+2016-01-17 10:19:57,233 - data - INFO - start
+2016-01-17 10:19:57,233 - data - INFO - ***** start heart
+2016-01-17 10:19:57,233 - data - INFO - *********** loop : 0
+2016-01-17 10:19:57,243 - data - INFO - start cross val
+2016-01-17 10:19:57,243 - data - INFO - Singleton array array(<open file 'training_data/x_train_heart_0.25_0', mode 'rb' at 0x7f5904e2f5d0>, dtype=object) cannot be considered a valid collection.
+2016-01-17 10:23:56,843 - data - INFO - start
+2016-01-17 10:23:56,844 - data - INFO - ***** start heart
+2016-01-17 10:23:56,845 - data - INFO - *********** loop : 0
+2016-01-17 10:24:04,089 - data - INFO - start cross val
+2016-01-17 10:24:04,090 - data - INFO - Singleton array array(<open file 'training_data/x_train_heart_0.25_0', mode 'rb' at 0x7fa0e4cf4e40>, dtype=object) cannot be considered a valid collection.
+2016-01-17 10:24:15,991 - data - INFO - start
+2016-01-17 10:24:15,991 - data - INFO - ***** start heart
+2016-01-17 10:24:15,992 - data - INFO - *********** loop : 0
+2016-01-17 10:29:55,890 - data - INFO - start
+2016-01-17 10:29:55,891 - data - INFO - ***** start heart
+2016-01-17 10:29:55,891 - data - INFO - *********** loop : 0
+2016-01-17 10:29:55,927 - data - INFO - start cross val
+2016-01-17 10:29:55,936 - data - INFO - end cross val
+2016-01-17 10:29:55,950 - data - INFO - start cross val
+2016-01-17 10:29:55,958 - data - INFO - end cross val
+2016-01-17 10:29:55,962 - data - INFO - start cross val
+2016-01-17 10:29:55,969 - data - INFO - end cross val
+2016-01-17 10:29:55,972 - data - INFO - *********** loop : 1
+2016-01-17 10:29:55,983 - data - INFO - start cross val
+2016-01-17 10:29:55,991 - data - INFO - end cross val
+2016-01-17 10:29:55,996 - data - INFO - start cross val
+2016-01-17 10:29:56,002 - data - INFO - end cross val
+2016-01-17 10:29:56,005 - data - INFO - start cross val
+2016-01-17 10:29:56,010 - data - INFO - end cross val
+2016-01-17 10:29:56,012 - data - INFO - *********** loop : 2
+2016-01-17 10:29:56,015 - data - INFO - start cross val
+2016-01-17 10:29:56,021 - data - INFO - end cross val
+2016-01-17 10:29:56,025 - data - INFO - start cross val
+2016-01-17 10:29:56,029 - data - INFO - end cross val
+2016-01-17 10:29:56,032 - data - INFO - start cross val
+2016-01-17 10:29:56,036 - data - INFO - end cross val
+2016-01-17 10:29:56,038 - data - INFO - *********** loop : 3
+2016-01-17 10:29:56,040 - data - INFO - start cross val
+2016-01-17 10:29:56,047 - data - INFO - end cross val
+2016-01-17 10:29:56,050 - data - INFO - start cross val
+2016-01-17 10:29:56,054 - data - INFO - end cross val
+2016-01-17 10:29:56,057 - data - INFO - start cross val
+2016-01-17 10:29:56,062 - data - INFO - end cross val
+2016-01-17 10:29:56,065 - data - INFO - *********** loop : 4
+2016-01-17 10:29:56,067 - data - INFO - start cross val
+2016-01-17 10:29:56,071 - data - INFO - end cross val
+2016-01-17 10:29:56,079 - data - INFO - start cross val
+2016-01-17 10:29:56,086 - data - INFO - end cross val
+2016-01-17 10:29:56,088 - data - INFO - start cross val
+2016-01-17 10:29:56,092 - data - INFO - end cross val
+2016-01-17 10:29:56,094 - data - INFO - *********** loop : 5
+2016-01-17 10:29:56,105 - data - INFO - start cross val
+2016-01-17 10:29:56,109 - data - INFO - end cross val
+2016-01-17 10:29:56,113 - data - INFO - start cross val
+2016-01-17 10:29:56,116 - data - INFO - end cross val
+2016-01-17 10:29:56,120 - data - INFO - start cross val
+2016-01-17 10:29:56,125 - data - INFO - end cross val
+2016-01-17 10:29:56,127 - data - INFO - *********** loop : 6
+2016-01-17 10:29:56,129 - data - INFO - start cross val
+2016-01-17 10:29:56,133 - data - INFO - end cross val
+2016-01-17 10:29:56,136 - data - INFO - start cross val
+2016-01-17 10:29:56,141 - data - INFO - end cross val
+2016-01-17 10:29:56,145 - data - INFO - start cross val
+2016-01-17 10:29:56,150 - data - INFO - end cross val
+2016-01-17 10:29:56,151 - data - INFO - *********** loop : 7
+2016-01-17 10:29:56,153 - data - INFO - start cross val
+2016-01-17 10:29:56,158 - data - INFO - end cross val
+2016-01-17 10:29:56,161 - data - INFO - start cross val
+2016-01-17 10:29:56,168 - data - INFO - end cross val
+2016-01-17 10:29:56,170 - data - INFO - start cross val
+2016-01-17 10:29:56,174 - data - INFO - end cross val
+2016-01-17 10:29:56,176 - data - INFO - *********** loop : 8
+2016-01-17 10:29:56,178 - data - INFO - start cross val
+2016-01-17 10:29:56,183 - data - INFO - end cross val
+2016-01-17 10:29:56,188 - data - INFO - start cross val
+2016-01-17 10:29:56,192 - data - INFO - end cross val
+2016-01-17 10:29:56,195 - data - INFO - start cross val
+2016-01-17 10:29:56,199 - data - INFO - end cross val
+2016-01-17 10:29:56,201 - data - INFO - *********** loop : 9
+2016-01-17 10:29:56,202 - data - INFO - start cross val
+2016-01-17 10:29:56,209 - data - INFO - end cross val
+2016-01-17 10:29:56,212 - data - INFO - start cross val
+2016-01-17 10:29:56,216 - data - INFO - end cross val
+2016-01-17 10:29:56,219 - data - INFO - start cross val
+2016-01-17 10:29:56,223 - data - INFO - end cross val
+2016-01-17 10:29:56,225 - data - INFO - *********** loop : 10
+2016-01-17 10:29:56,235 - data - INFO - start cross val
+2016-01-17 10:29:56,240 - data - INFO - end cross val
+2016-01-17 10:29:56,243 - data - INFO - start cross val
+2016-01-17 10:29:56,249 - data - INFO - end cross val
+2016-01-17 10:29:56,253 - data - INFO - start cross val
+2016-01-17 10:29:56,257 - data - INFO - end cross val
+2016-01-17 10:29:56,258 - data - INFO - *********** loop : 11
+2016-01-17 10:29:56,261 - data - INFO - start cross val
+2016-01-17 10:29:56,265 - data - INFO - end cross val
+2016-01-17 10:29:56,270 - data - INFO - start cross val
+2016-01-17 10:29:56,275 - data - INFO - end cross val
+2016-01-17 10:29:56,287 - data - INFO - start cross val
+2016-01-17 10:29:56,293 - data - INFO - end cross val
+2016-01-17 10:29:56,295 - data - INFO - *********** loop : 12
+2016-01-17 10:29:56,297 - data - INFO - start cross val
+2016-01-17 10:29:56,302 - data - INFO - end cross val
+2016-01-17 10:29:56,312 - data - INFO - start cross val
+2016-01-17 10:29:56,316 - data - INFO - end cross val
+2016-01-17 10:29:56,319 - data - INFO - start cross val
+2016-01-17 10:29:56,323 - data - INFO - end cross val
+2016-01-17 10:29:56,325 - data - INFO - *********** loop : 13
+2016-01-17 10:29:56,327 - data - INFO - start cross val
+2016-01-17 10:29:56,334 - data - INFO - end cross val
+2016-01-17 10:29:56,337 - data - INFO - start cross val
+2016-01-17 10:29:56,343 - data - INFO - end cross val
+2016-01-17 10:29:56,346 - data - INFO - start cross val
+2016-01-17 10:29:56,352 - data - INFO - end cross val
+2016-01-17 10:29:56,353 - data - INFO - *********** loop : 14
+2016-01-17 10:29:56,356 - data - INFO - start cross val
+2016-01-17 10:29:56,360 - data - INFO - end cross val
+2016-01-17 10:29:56,363 - data - INFO - start cross val
+2016-01-17 10:29:56,368 - data - INFO - end cross val
+2016-01-17 10:29:56,371 - data - INFO - start cross val
+2016-01-17 10:29:56,376 - data - INFO - end cross val
+2016-01-17 10:29:56,378 - data - INFO - *********** loop : 15
+2016-01-17 10:29:56,380 - data - INFO - start cross val
+2016-01-17 10:29:56,385 - data - INFO - end cross val
+2016-01-17 10:29:56,387 - data - INFO - start cross val
+2016-01-17 10:29:56,394 - data - INFO - end cross val
+2016-01-17 10:29:56,397 - data - INFO - start cross val
+2016-01-17 10:29:56,401 - data - INFO - end cross val
+2016-01-17 10:29:56,403 - data - INFO - *********** loop : 16
+2016-01-17 10:29:56,405 - data - INFO - start cross val
+2016-01-17 10:29:56,410 - data - INFO - end cross val
+2016-01-17 10:29:56,414 - data - INFO - start cross val
+2016-01-17 10:29:56,419 - data - INFO - end cross val
+2016-01-17 10:29:56,422 - data - INFO - start cross val
+2016-01-17 10:29:56,426 - data - INFO - end cross val
+2016-01-17 10:29:56,428 - data - INFO - *********** loop : 17
+2016-01-17 10:29:56,429 - data - INFO - start cross val
+2016-01-17 10:29:56,436 - data - INFO - end cross val
+2016-01-17 10:29:56,440 - data - INFO - start cross val
+2016-01-17 10:29:56,445 - data - INFO - end cross val
+2016-01-17 10:29:56,448 - data - INFO - start cross val
+2016-01-17 10:29:56,452 - data - INFO - end cross val
+2016-01-17 10:29:56,456 - data - INFO - *********** loop : 18
+2016-01-17 10:29:56,458 - data - INFO - start cross val
+2016-01-17 10:29:56,463 - data - INFO - end cross val
+2016-01-17 10:29:56,466 - data - INFO - start cross val
+2016-01-17 10:29:56,470 - data - INFO - end cross val
+2016-01-17 10:29:56,473 - data - INFO - start cross val
+2016-01-17 10:29:56,479 - data - INFO - end cross val
+2016-01-17 10:29:56,481 - data - INFO - *********** loop : 19
+2016-01-17 10:29:56,488 - data - INFO - start cross val
+2016-01-17 10:29:56,493 - data - INFO - end cross val
+2016-01-17 10:29:56,497 - data - INFO - start cross val
+2016-01-17 10:29:56,503 - data - INFO - end cross val
+2016-01-17 10:29:56,505 - data - INFO - start cross val
+2016-01-17 10:29:56,510 - data - INFO - end cross val
+2016-01-17 10:29:56,511 - data - INFO - *********** loop : 20
+2016-01-17 10:29:56,513 - data - INFO - start cross val
+2016-01-17 10:29:56,519 - data - INFO - end cross val
+2016-01-17 10:29:56,523 - data - INFO - start cross val
+2016-01-17 10:29:56,527 - data - INFO - end cross val
+2016-01-17 10:29:56,530 - data - INFO - start cross val
+2016-01-17 10:29:56,534 - data - INFO - end cross val
+2016-01-17 10:29:56,536 - data - INFO - *********** loop : 21
+2016-01-17 10:29:56,539 - data - INFO - start cross val
+2016-01-17 10:29:56,546 - data - INFO - end cross val
+2016-01-17 10:29:56,549 - data - INFO - start cross val
+2016-01-17 10:29:56,553 - data - INFO - end cross val
+2016-01-17 10:29:56,556 - data - INFO - start cross val
+2016-01-17 10:29:56,561 - data - INFO - end cross val
+2016-01-17 10:29:56,564 - data - INFO - *********** loop : 22
+2016-01-17 10:29:56,566 - data - INFO - start cross val
+2016-01-17 10:29:56,570 - data - INFO - end cross val
+2016-01-17 10:29:56,574 - data - INFO - start cross val
+2016-01-17 10:29:56,578 - data - INFO - end cross val
+2016-01-17 10:29:56,581 - data - INFO - start cross val
+2016-01-17 10:29:56,587 - data - INFO - end cross val
+2016-01-17 10:29:56,588 - data - INFO - *********** loop : 23
+2016-01-17 10:29:56,590 - data - INFO - start cross val
+2016-01-17 10:29:56,595 - data - INFO - end cross val
+2016-01-17 10:29:56,598 - data - INFO - start cross val
+2016-01-17 10:29:56,603 - data - INFO - end cross val
+2016-01-17 10:29:56,607 - data - INFO - start cross val
+2016-01-17 10:29:56,612 - data - INFO - end cross val
+2016-01-17 10:29:56,613 - data - INFO - *********** loop : 24
+2016-01-17 10:29:56,615 - data - INFO - start cross val
+2016-01-17 10:29:56,620 - data - INFO - end cross val
+2016-01-17 10:29:56,623 - data - INFO - start cross val
+2016-01-17 10:29:56,629 - data - INFO - end cross val
+2016-01-17 10:29:56,632 - data - INFO - start cross val
+2016-01-17 10:29:56,636 - data - INFO - end cross val
+2016-01-17 10:29:56,638 - data - INFO - *********** loop : 25
+2016-01-17 10:29:56,640 - data - INFO - start cross val
+2016-01-17 10:29:56,645 - data - INFO - end cross val
+2016-01-17 10:29:56,650 - data - INFO - start cross val
+2016-01-17 10:29:56,654 - data - INFO - end cross val
+2016-01-17 10:29:56,657 - data - INFO - start cross val
+2016-01-17 10:29:56,661 - data - INFO - end cross val
+2016-01-17 10:29:56,662 - data - INFO - *********** loop : 26
+2016-01-17 10:29:56,664 - data - INFO - start cross val
+2016-01-17 10:29:56,671 - data - INFO - end cross val
+2016-01-17 10:29:56,674 - data - INFO - start cross val
+2016-01-17 10:29:56,678 - data - INFO - end cross val
+2016-01-17 10:29:56,681 - data - INFO - start cross val
+2016-01-17 10:29:56,685 - data - INFO - end cross val
+2016-01-17 10:29:56,687 - data - INFO - *********** loop : 27
+2016-01-17 10:29:56,690 - data - INFO - start cross val
+2016-01-17 10:29:56,695 - data - INFO - end cross val
+2016-01-17 10:29:56,698 - data - INFO - start cross val
+2016-01-17 10:29:56,702 - data - INFO - end cross val
+2016-01-17 10:29:56,705 - data - INFO - start cross val
+2016-01-17 10:29:56,711 - data - INFO - end cross val
+2016-01-17 10:29:56,712 - data - INFO - *********** loop : 28
+2016-01-17 10:29:56,720 - data - INFO - start cross val
+2016-01-17 10:29:56,727 - data - INFO - end cross val
+2016-01-17 10:29:56,732 - data - INFO - start cross val
+2016-01-17 10:29:56,738 - data - INFO - end cross val
+2016-01-17 10:29:56,743 - data - INFO - start cross val
+2016-01-17 10:29:56,750 - data - INFO - end cross val
+2016-01-17 10:29:56,752 - data - INFO - *********** loop : 29
+2016-01-17 10:29:56,755 - data - INFO - start cross val
+2016-01-17 10:29:56,761 - data - INFO - end cross val
+2016-01-17 10:29:56,763 - data - INFO - start cross val
+2016-01-17 10:29:56,767 - data - INFO - end cross val
+2016-01-17 10:29:56,769 - data - INFO - start cross val
+2016-01-17 10:29:56,772 - data - INFO - end cross val
+2016-01-17 10:29:56,773 - data - INFO - *********** loop : 30
+2016-01-17 10:29:56,775 - data - INFO - start cross val
+2016-01-17 10:29:56,778 - data - INFO - end cross val
+2016-01-17 10:29:56,781 - data - INFO - start cross val
+2016-01-17 10:29:56,784 - data - INFO - end cross val
+2016-01-17 10:29:56,786 - data - INFO - start cross val
+2016-01-17 10:29:56,789 - data - INFO - end cross val
+2016-01-17 10:29:56,790 - data - INFO - *********** loop : 31
+2016-01-17 10:29:56,793 - data - INFO - start cross val
+2016-01-17 10:29:56,799 - data - INFO - end cross val
+2016-01-17 10:29:56,803 - data - INFO - start cross val
+2016-01-17 10:29:56,807 - data - INFO - end cross val
+2016-01-17 10:29:56,809 - data - INFO - start cross val
+2016-01-17 10:29:56,812 - data - INFO - end cross val
+2016-01-17 10:29:56,814 - data - INFO - *********** loop : 32
+2016-01-17 10:29:56,815 - data - INFO - start cross val
+2016-01-17 10:29:56,819 - data - INFO - end cross val
+2016-01-17 10:29:56,821 - data - INFO - start cross val
+2016-01-17 10:29:56,824 - data - INFO - end cross val
+2016-01-17 10:29:56,826 - data - INFO - start cross val
+2016-01-17 10:29:56,830 - data - INFO - end cross val
+2016-01-17 10:29:56,831 - data - INFO - *********** loop : 33
+2016-01-17 10:29:56,833 - data - INFO - start cross val
+2016-01-17 10:29:56,836 - data - INFO - end cross val
+2016-01-17 10:29:56,838 - data - INFO - start cross val
+2016-01-17 10:29:56,842 - data - INFO - end cross val
+2016-01-17 10:29:56,844 - data - INFO - start cross val
+2016-01-17 10:29:56,847 - data - INFO - end cross val
+2016-01-17 10:29:56,848 - data - INFO - *********** loop : 34
+2016-01-17 10:29:56,850 - data - INFO - start cross val
+2016-01-17 10:29:56,853 - data - INFO - end cross val
+2016-01-17 10:29:56,856 - data - INFO - start cross val
+2016-01-17 10:29:56,859 - data - INFO - end cross val
+2016-01-17 10:29:56,862 - data - INFO - start cross val
+2016-01-17 10:29:56,865 - data - INFO - end cross val
+2016-01-17 10:29:56,866 - data - INFO - *********** loop : 35
+2016-01-17 10:29:56,868 - data - INFO - start cross val
+2016-01-17 10:29:56,871 - data - INFO - end cross val
+2016-01-17 10:29:56,874 - data - INFO - start cross val
+2016-01-17 10:29:56,879 - data - INFO - end cross val
+2016-01-17 10:29:56,883 - data - INFO - start cross val
+2016-01-17 10:29:56,888 - data - INFO - end cross val
+2016-01-17 10:29:56,890 - data - INFO - *********** loop : 36
+2016-01-17 10:29:56,893 - data - INFO - start cross val
+2016-01-17 10:29:56,896 - data - INFO - end cross val
+2016-01-17 10:29:56,899 - data - INFO - start cross val
+2016-01-17 10:29:56,902 - data - INFO - end cross val
+2016-01-17 10:29:56,905 - data - INFO - start cross val
+2016-01-17 10:29:56,908 - data - INFO - end cross val
+2016-01-17 10:29:56,909 - data - INFO - *********** loop : 37
+2016-01-17 10:29:56,911 - data - INFO - start cross val
+2016-01-17 10:29:56,914 - data - INFO - end cross val
+2016-01-17 10:29:56,916 - data - INFO - start cross val
+2016-01-17 10:29:56,920 - data - INFO - end cross val
+2016-01-17 10:29:56,922 - data - INFO - start cross val
+2016-01-17 10:29:56,925 - data - INFO - end cross val
+2016-01-17 10:29:56,926 - data - INFO - *********** loop : 38
+2016-01-17 10:29:56,928 - data - INFO - start cross val
+2016-01-17 10:29:56,931 - data - INFO - end cross val
+2016-01-17 10:29:56,934 - data - INFO - start cross val
+2016-01-17 10:29:56,937 - data - INFO - end cross val
+2016-01-17 10:29:56,939 - data - INFO - start cross val
+2016-01-17 10:29:56,942 - data - INFO - end cross val
+2016-01-17 10:29:56,943 - data - INFO - *********** loop : 39
+2016-01-17 10:29:56,945 - data - INFO - start cross val
+2016-01-17 10:29:56,948 - data - INFO - end cross val
+2016-01-17 10:29:56,951 - data - INFO - start cross val
+2016-01-17 10:29:56,954 - data - INFO - end cross val
+2016-01-17 10:29:56,956 - data - INFO - start cross val
+2016-01-17 10:29:56,960 - data - INFO - end cross val
+2016-01-17 10:29:56,961 - data - INFO - *********** loop : 40
+2016-01-17 10:29:56,962 - data - INFO - start cross val
+2016-01-17 10:29:56,966 - data - INFO - end cross val
+2016-01-17 10:29:56,968 - data - INFO - start cross val
+2016-01-17 10:29:56,971 - data - INFO - end cross val
+2016-01-17 10:29:56,973 - data - INFO - start cross val
+2016-01-17 10:29:56,977 - data - INFO - end cross val
+2016-01-17 10:29:56,979 - data - INFO - *********** loop : 41
+2016-01-17 10:29:56,981 - data - INFO - start cross val
+2016-01-17 10:29:56,985 - data - INFO - end cross val
+2016-01-17 10:29:56,989 - data - INFO - start cross val
+2016-01-17 10:29:56,993 - data - INFO - end cross val
+2016-01-17 10:29:56,997 - data - INFO - start cross val
+2016-01-17 10:29:57,001 - data - INFO - end cross val
+2016-01-17 10:29:57,003 - data - INFO - *********** loop : 42
+2016-01-17 10:29:57,004 - data - INFO - start cross val
+2016-01-17 10:29:57,009 - data - INFO - end cross val
+2016-01-17 10:29:57,012 - data - INFO - start cross val
+2016-01-17 10:29:57,016 - data - INFO - end cross val
+2016-01-17 10:29:57,018 - data - INFO - start cross val
+2016-01-17 10:29:57,022 - data - INFO - end cross val
+2016-01-17 10:29:57,024 - data - INFO - *********** loop : 43
+2016-01-17 10:29:57,025 - data - INFO - start cross val
+2016-01-17 10:29:57,030 - data - INFO - end cross val
+2016-01-17 10:29:57,032 - data - INFO - start cross val
+2016-01-17 10:29:57,036 - data - INFO - end cross val
+2016-01-17 10:29:57,039 - data - INFO - start cross val
+2016-01-17 10:29:57,046 - data - INFO - end cross val
+2016-01-17 10:29:57,049 - data - INFO - *********** loop : 44
+2016-01-17 10:29:57,052 - data - INFO - start cross val
+2016-01-17 10:29:57,061 - data - INFO - end cross val
+2016-01-17 10:29:57,067 - data - INFO - start cross val
+2016-01-17 10:29:57,074 - data - INFO - end cross val
+2016-01-17 10:29:57,079 - data - INFO - start cross val
+2016-01-17 10:29:57,086 - data - INFO - end cross val
+2016-01-17 10:29:57,088 - data - INFO - *********** loop : 45
+2016-01-17 10:29:57,091 - data - INFO - start cross val
+2016-01-17 10:29:57,099 - data - INFO - end cross val
+2016-01-17 10:29:57,104 - data - INFO - start cross val
+2016-01-17 10:29:57,109 - data - INFO - end cross val
+2016-01-17 10:29:57,112 - data - INFO - start cross val
+2016-01-17 10:29:57,116 - data - INFO - end cross val
+2016-01-17 10:29:57,117 - data - INFO - *********** loop : 46
+2016-01-17 10:29:57,119 - data - INFO - start cross val
+2016-01-17 10:29:57,124 - data - INFO - end cross val
+2016-01-17 10:29:57,129 - data - INFO - start cross val
+2016-01-17 10:29:57,133 - data - INFO - end cross val
+2016-01-17 10:29:57,136 - data - INFO - start cross val
+2016-01-17 10:29:57,140 - data - INFO - end cross val
+2016-01-17 10:29:57,141 - data - INFO - *********** loop : 47
+2016-01-17 10:29:57,143 - data - INFO - start cross val
+2016-01-17 10:29:57,148 - data - INFO - end cross val
+2016-01-17 10:29:57,152 - data - INFO - start cross val
+2016-01-17 10:29:57,156 - data - INFO - end cross val
+2016-01-17 10:29:57,159 - data - INFO - start cross val
+2016-01-17 10:29:57,163 - data - INFO - end cross val
+2016-01-17 10:29:57,165 - data - INFO - *********** loop : 48
+2016-01-17 10:29:57,168 - data - INFO - start cross val
+2016-01-17 10:29:57,172 - data - INFO - end cross val
+2016-01-17 10:29:57,175 - data - INFO - start cross val
+2016-01-17 10:29:57,180 - data - INFO - end cross val
+2016-01-17 10:29:57,182 - data - INFO - start cross val
+2016-01-17 10:29:57,186 - data - INFO - end cross val
+2016-01-17 10:29:57,187 - data - INFO - *********** loop : 49
+2016-01-17 10:29:57,189 - data - INFO - start cross val
+2016-01-17 10:29:57,193 - data - INFO - end cross val
+2016-01-17 10:29:57,196 - data - INFO - start cross val
+2016-01-17 10:29:57,201 - data - INFO - end cross val
+2016-01-17 10:29:57,204 - data - INFO - start cross val
+2016-01-17 10:29:57,208 - data - INFO - end cross val
+2016-01-17 10:29:57,217 - data - INFO - ************** end 
+2016-01-17 10:29:57,218 - data - INFO - end
+2016-01-17 11:03:24,205 - data - INFO - start
+2016-01-17 11:03:24,229 - data - INFO - ***** start heart
+2016-01-17 11:03:24,230 - data - INFO - *********** loop : 0
+2016-01-17 11:03:24,253 - data - INFO - start cross val
+2016-01-17 11:03:24,261 - data - INFO - end cross val
+2016-01-17 11:03:24,276 - data - INFO - start cross val
+2016-01-17 11:03:24,283 - data - INFO - end cross val
+2016-01-17 11:03:24,292 - data - INFO - start cross val
+2016-01-17 11:03:24,298 - data - INFO - end cross val
+2016-01-17 11:03:24,300 - data - INFO - *********** loop : 1
+2016-01-17 11:03:24,308 - data - INFO - start cross val
+2016-01-17 11:03:24,312 - data - INFO - end cross val
+2016-01-17 11:03:24,315 - data - INFO - start cross val
+2016-01-17 11:03:24,320 - data - INFO - end cross val
+2016-01-17 11:03:24,324 - data - INFO - start cross val
+2016-01-17 11:03:24,328 - data - INFO - end cross val
+2016-01-17 11:03:24,330 - data - INFO - *********** loop : 2
+2016-01-17 11:03:24,332 - data - INFO - start cross val
+2016-01-17 11:03:24,337 - data - INFO - end cross val
+2016-01-17 11:03:24,342 - data - INFO - start cross val
+2016-01-17 11:03:24,346 - data - INFO - end cross val
+2016-01-17 11:03:24,350 - data - INFO - start cross val
+2016-01-17 11:03:24,354 - data - INFO - end cross val
+2016-01-17 11:03:24,356 - data - INFO - *********** loop : 3
+2016-01-17 11:03:24,359 - data - INFO - start cross val
+2016-01-17 11:03:24,364 - data - INFO - end cross val
+2016-01-17 11:03:24,369 - data - INFO - start cross val
+2016-01-17 11:03:24,373 - data - INFO - end cross val
+2016-01-17 11:03:24,377 - data - INFO - start cross val
+2016-01-17 11:03:24,382 - data - INFO - end cross val
+2016-01-17 11:03:24,384 - data - INFO - *********** loop : 4
+2016-01-17 11:03:24,386 - data - INFO - start cross val
+2016-01-17 11:03:24,390 - data - INFO - end cross val
+2016-01-17 11:03:24,395 - data - INFO - start cross val
+2016-01-17 11:03:24,399 - data - INFO - end cross val
+2016-01-17 11:03:24,404 - data - INFO - start cross val
+2016-01-17 11:03:24,408 - data - INFO - end cross val
+2016-01-17 11:03:24,409 - data - INFO - *********** loop : 5
+2016-01-17 11:03:24,420 - data - INFO - start cross val
+2016-01-17 11:03:24,424 - data - INFO - end cross val
+2016-01-17 11:03:24,430 - data - INFO - start cross val
+2016-01-17 11:03:24,435 - data - INFO - end cross val
+2016-01-17 11:03:24,438 - data - INFO - start cross val
+2016-01-17 11:03:24,443 - data - INFO - end cross val
+2016-01-17 11:03:24,446 - data - INFO - *********** loop : 6
+2016-01-17 11:03:24,449 - data - INFO - start cross val
+2016-01-17 11:03:24,454 - data - INFO - end cross val
+2016-01-17 11:03:24,457 - data - INFO - start cross val
+2016-01-17 11:03:24,463 - data - INFO - end cross val
+2016-01-17 11:03:24,466 - data - INFO - start cross val
+2016-01-17 11:03:24,471 - data - INFO - end cross val
+2016-01-17 11:03:24,472 - data - INFO - *********** loop : 7
+2016-01-17 11:03:24,475 - data - INFO - start cross val
+2016-01-17 11:03:24,482 - data - INFO - end cross val
+2016-01-17 11:03:24,485 - data - INFO - start cross val
+2016-01-17 11:03:24,489 - data - INFO - end cross val
+2016-01-17 11:03:24,492 - data - INFO - start cross val
+2016-01-17 11:03:24,498 - data - INFO - end cross val
+2016-01-17 11:03:24,500 - data - INFO - *********** loop : 8
+2016-01-17 11:03:24,502 - data - INFO - start cross val
+2016-01-17 11:03:24,507 - data - INFO - end cross val
+2016-01-17 11:03:24,511 - data - INFO - start cross val
+2016-01-17 11:03:24,516 - data - INFO - end cross val
+2016-01-17 11:03:24,519 - data - INFO - start cross val
+2016-01-17 11:03:24,524 - data - INFO - end cross val
+2016-01-17 11:03:24,525 - data - INFO - *********** loop : 9
+2016-01-17 11:03:24,535 - data - INFO - start cross val
+2016-01-17 11:03:24,540 - data - INFO - end cross val
+2016-01-17 11:03:24,543 - data - INFO - start cross val
+2016-01-17 11:03:24,549 - data - INFO - end cross val
+2016-01-17 11:03:24,552 - data - INFO - start cross val
+2016-01-17 11:03:24,557 - data - INFO - end cross val
+2016-01-17 11:03:24,559 - data - INFO - *********** loop : 10
+2016-01-17 11:03:24,569 - data - INFO - start cross val
+2016-01-17 11:03:24,575 - data - INFO - end cross val
+2016-01-17 11:03:24,583 - data - INFO - start cross val
+2016-01-17 11:03:24,589 - data - INFO - end cross val
+2016-01-17 11:03:24,593 - data - INFO - start cross val
+2016-01-17 11:03:24,600 - data - INFO - end cross val
+2016-01-17 11:03:24,603 - data - INFO - *********** loop : 11
+2016-01-17 11:03:24,606 - data - INFO - start cross val
+2016-01-17 11:03:24,610 - data - INFO - end cross val
+2016-01-17 11:03:24,615 - data - INFO - start cross val
+2016-01-17 11:03:24,619 - data - INFO - end cross val
+2016-01-17 11:03:24,623 - data - INFO - start cross val
+2016-01-17 11:03:24,627 - data - INFO - end cross val
+2016-01-17 11:03:24,628 - data - INFO - *********** loop : 12
+2016-01-17 11:03:24,632 - data - INFO - start cross val
+2016-01-17 11:03:24,636 - data - INFO - end cross val
+2016-01-17 11:03:24,646 - data - INFO - start cross val
+2016-01-17 11:03:24,651 - data - INFO - end cross val
+2016-01-17 11:03:24,654 - data - INFO - start cross val
+2016-01-17 11:03:24,659 - data - INFO - end cross val
+2016-01-17 11:03:24,660 - data - INFO - *********** loop : 13
+2016-01-17 11:03:24,663 - data - INFO - start cross val
+2016-01-17 11:03:24,668 - data - INFO - end cross val
+2016-01-17 11:03:24,671 - data - INFO - start cross val
+2016-01-17 11:03:24,676 - data - INFO - end cross val
+2016-01-17 11:03:24,679 - data - INFO - start cross val
+2016-01-17 11:03:24,684 - data - INFO - end cross val
+2016-01-17 11:03:24,686 - data - INFO - *********** loop : 14
+2016-01-17 11:03:24,688 - data - INFO - start cross val
+2016-01-17 11:03:24,692 - data - INFO - end cross val
+2016-01-17 11:03:24,696 - data - INFO - start cross val
+2016-01-17 11:03:24,701 - data - INFO - end cross val
+2016-01-17 11:03:24,704 - data - INFO - start cross val
+2016-01-17 11:03:24,708 - data - INFO - end cross val
+2016-01-17 11:03:24,709 - data - INFO - *********** loop : 15
+2016-01-17 11:03:24,711 - data - INFO - start cross val
+2016-01-17 11:03:24,716 - data - INFO - end cross val
+2016-01-17 11:03:24,719 - data - INFO - start cross val
+2016-01-17 11:03:24,723 - data - INFO - end cross val
+2016-01-17 11:03:24,726 - data - INFO - start cross val
+2016-01-17 11:03:24,733 - data - INFO - end cross val
+2016-01-17 11:03:24,734 - data - INFO - *********** loop : 16
+2016-01-17 11:03:24,737 - data - INFO - start cross val
+2016-01-17 11:03:24,744 - data - INFO - end cross val
+2016-01-17 11:03:24,749 - data - INFO - start cross val
+2016-01-17 11:03:24,754 - data - INFO - end cross val
+2016-01-17 11:03:24,758 - data - INFO - start cross val
+2016-01-17 11:03:24,765 - data - INFO - end cross val
+2016-01-17 11:03:24,767 - data - INFO - *********** loop : 17
+2016-01-17 11:03:24,770 - data - INFO - start cross val
+2016-01-17 11:03:24,775 - data - INFO - end cross val
+2016-01-17 11:03:24,781 - data - INFO - start cross val
+2016-01-17 11:03:24,787 - data - INFO - end cross val
+2016-01-17 11:03:24,791 - data - INFO - start cross val
+2016-01-17 11:03:24,798 - data - INFO - end cross val
+2016-01-17 11:03:24,800 - data - INFO - *********** loop : 18
+2016-01-17 11:03:24,802 - data - INFO - start cross val
+2016-01-17 11:03:24,808 - data - INFO - end cross val
+2016-01-17 11:03:24,813 - data - INFO - start cross val
+2016-01-17 11:03:24,819 - data - INFO - end cross val
+2016-01-17 11:03:24,823 - data - INFO - start cross val
+2016-01-17 11:03:24,829 - data - INFO - end cross val
+2016-01-17 11:03:24,832 - data - INFO - *********** loop : 19
+2016-01-17 11:03:24,834 - data - INFO - start cross val
+2016-01-17 11:03:24,840 - data - INFO - end cross val
+2016-01-17 11:03:24,847 - data - INFO - start cross val
+2016-01-17 11:03:24,852 - data - INFO - end cross val
+2016-01-17 11:03:24,856 - data - INFO - start cross val
+2016-01-17 11:03:24,863 - data - INFO - end cross val
+2016-01-17 11:03:24,865 - data - INFO - *********** loop : 20
+2016-01-17 11:03:24,868 - data - INFO - start cross val
+2016-01-17 11:03:24,873 - data - INFO - end cross val
+2016-01-17 11:03:24,879 - data - INFO - start cross val
+2016-01-17 11:03:24,885 - data - INFO - end cross val
+2016-01-17 11:03:24,888 - data - INFO - start cross val
+2016-01-17 11:03:24,891 - data - INFO - end cross val
+2016-01-17 11:03:24,892 - data - INFO - *********** loop : 21
+2016-01-17 11:03:24,895 - data - INFO - start cross val
+2016-01-17 11:03:24,899 - data - INFO - end cross val
+2016-01-17 11:03:24,903 - data - INFO - start cross val
+2016-01-17 11:03:24,906 - data - INFO - end cross val
+2016-01-17 11:03:24,908 - data - INFO - start cross val
+2016-01-17 11:03:24,912 - data - INFO - end cross val
+2016-01-17 11:03:24,913 - data - INFO - *********** loop : 22
+2016-01-17 11:03:24,926 - data - INFO - start cross val
+2016-01-17 11:03:24,929 - data - INFO - end cross val
+2016-01-17 11:03:24,932 - data - INFO - start cross val
+2016-01-17 11:03:24,935 - data - INFO - end cross val
+2016-01-17 11:03:24,938 - data - INFO - start cross val
+2016-01-17 11:03:24,941 - data - INFO - end cross val
+2016-01-17 11:03:24,942 - data - INFO - *********** loop : 23
+2016-01-17 11:03:24,944 - data - INFO - start cross val
+2016-01-17 11:03:24,947 - data - INFO - end cross val
+2016-01-17 11:03:24,950 - data - INFO - start cross val
+2016-01-17 11:03:24,954 - data - INFO - end cross val
+2016-01-17 11:03:24,957 - data - INFO - start cross val
+2016-01-17 11:03:24,960 - data - INFO - end cross val
+2016-01-17 11:03:24,962 - data - INFO - *********** loop : 24
+2016-01-17 11:03:24,964 - data - INFO - start cross val
+2016-01-17 11:03:24,967 - data - INFO - end cross val
+2016-01-17 11:03:24,970 - data - INFO - start cross val
+2016-01-17 11:03:24,975 - data - INFO - end cross val
+2016-01-17 11:03:24,978 - data - INFO - start cross val
+2016-01-17 11:03:24,987 - data - INFO - end cross val
+2016-01-17 11:03:24,989 - data - INFO - *********** loop : 25
+2016-01-17 11:03:24,999 - data - INFO - start cross val
+2016-01-17 11:03:25,004 - data - INFO - end cross val
+2016-01-17 11:03:25,009 - data - INFO - start cross val
+2016-01-17 11:03:25,013 - data - INFO - end cross val
+2016-01-17 11:03:25,016 - data - INFO - start cross val
+2016-01-17 11:03:25,021 - data - INFO - end cross val
+2016-01-17 11:03:25,022 - data - INFO - *********** loop : 26
+2016-01-17 11:03:25,025 - data - INFO - start cross val
+2016-01-17 11:03:25,030 - data - INFO - end cross val
+2016-01-17 11:03:25,033 - data - INFO - start cross val
+2016-01-17 11:03:25,038 - data - INFO - end cross val
+2016-01-17 11:03:25,042 - data - INFO - start cross val
+2016-01-17 11:03:25,046 - data - INFO - end cross val
+2016-01-17 11:03:25,048 - data - INFO - *********** loop : 27
+2016-01-17 11:03:25,050 - data - INFO - start cross val
+2016-01-17 11:03:25,056 - data - INFO - end cross val
+2016-01-17 11:03:25,060 - data - INFO - start cross val
+2016-01-17 11:03:25,064 - data - INFO - end cross val
+2016-01-17 11:03:25,067 - data - INFO - start cross val
+2016-01-17 11:03:25,072 - data - INFO - end cross val
+2016-01-17 11:03:25,075 - data - INFO - *********** loop : 28
+2016-01-17 11:03:25,078 - data - INFO - start cross val
+2016-01-17 11:03:25,082 - data - INFO - end cross val
+2016-01-17 11:03:25,086 - data - INFO - start cross val
+2016-01-17 11:03:25,092 - data - INFO - end cross val
+2016-01-17 11:03:25,096 - data - INFO - start cross val
+2016-01-17 11:03:25,100 - data - INFO - end cross val
+2016-01-17 11:03:25,101 - data - INFO - *********** loop : 29
+2016-01-17 11:03:25,104 - data - INFO - start cross val
+2016-01-17 11:03:25,110 - data - INFO - end cross val
+2016-01-17 11:03:25,114 - data - INFO - start cross val
+2016-01-17 11:03:25,118 - data - INFO - end cross val
+2016-01-17 11:03:25,121 - data - INFO - start cross val
+2016-01-17 11:03:25,127 - data - INFO - end cross val
+2016-01-17 11:03:25,128 - data - INFO - *********** loop : 30
+2016-01-17 11:03:25,131 - data - INFO - start cross val
+2016-01-17 11:03:25,135 - data - INFO - end cross val
+2016-01-17 11:03:25,138 - data - INFO - start cross val
+2016-01-17 11:03:25,145 - data - INFO - end cross val
+2016-01-17 11:03:25,149 - data - INFO - start cross val
+2016-01-17 11:03:25,154 - data - INFO - end cross val
+2016-01-17 11:03:25,155 - data - INFO - *********** loop : 31
+2016-01-17 11:03:25,159 - data - INFO - start cross val
+2016-01-17 11:03:25,164 - data - INFO - end cross val
+2016-01-17 11:03:25,168 - data - INFO - start cross val
+2016-01-17 11:03:25,172 - data - INFO - end cross val
+2016-01-17 11:03:25,176 - data - INFO - start cross val
+2016-01-17 11:03:25,181 - data - INFO - end cross val
+2016-01-17 11:03:25,182 - data - INFO - *********** loop : 32
+2016-01-17 11:03:25,185 - data - INFO - start cross val
+2016-01-17 11:03:25,190 - data - INFO - end cross val
+2016-01-17 11:03:25,195 - data - INFO - start cross val
+2016-01-17 11:03:25,199 - data - INFO - end cross val
+2016-01-17 11:03:25,202 - data - INFO - start cross val
+2016-01-17 11:03:25,207 - data - INFO - end cross val
+2016-01-17 11:03:25,209 - data - INFO - *********** loop : 33
+2016-01-17 11:03:25,216 - data - INFO - start cross val
+2016-01-17 11:03:25,220 - data - INFO - end cross val
+2016-01-17 11:03:25,225 - data - INFO - start cross val
+2016-01-17 11:03:25,230 - data - INFO - end cross val
+2016-01-17 11:03:25,233 - data - INFO - start cross val
+2016-01-17 11:03:25,237 - data - INFO - end cross val
+2016-01-17 11:03:25,239 - data - INFO - *********** loop : 34
+2016-01-17 11:03:25,242 - data - INFO - start cross val
+2016-01-17 11:03:25,247 - data - INFO - end cross val
+2016-01-17 11:03:25,251 - data - INFO - start cross val
+2016-01-17 11:03:25,255 - data - INFO - end cross val
+2016-01-17 11:03:25,260 - data - INFO - start cross val
+2016-01-17 11:03:25,265 - data - INFO - end cross val
+2016-01-17 11:03:25,267 - data - INFO - *********** loop : 35
+2016-01-17 11:03:25,278 - data - INFO - start cross val
+2016-01-17 11:03:25,283 - data - INFO - end cross val
+2016-01-17 11:03:25,286 - data - INFO - start cross val
+2016-01-17 11:03:25,292 - data - INFO - end cross val
+2016-01-17 11:03:25,296 - data - INFO - start cross val
+2016-01-17 11:03:25,301 - data - INFO - end cross val
+2016-01-17 11:03:25,304 - data - INFO - *********** loop : 36
+2016-01-17 11:03:25,311 - data - INFO - start cross val
+2016-01-17 11:03:25,317 - data - INFO - end cross val
+2016-01-17 11:03:25,321 - data - INFO - start cross val
+2016-01-17 11:03:25,327 - data - INFO - end cross val
+2016-01-17 11:03:25,331 - data - INFO - start cross val
+2016-01-17 11:03:25,336 - data - INFO - end cross val
+2016-01-17 11:03:25,338 - data - INFO - *********** loop : 37
+2016-01-17 11:03:25,342 - data - INFO - start cross val
+2016-01-17 11:03:25,349 - data - INFO - end cross val
+2016-01-17 11:03:25,353 - data - INFO - start cross val
+2016-01-17 11:03:25,359 - data - INFO - end cross val
+2016-01-17 11:03:25,363 - data - INFO - start cross val
+2016-01-17 11:03:25,368 - data - INFO - end cross val
+2016-01-17 11:03:25,370 - data - INFO - *********** loop : 38
+2016-01-17 11:03:25,372 - data - INFO - start cross val
+2016-01-17 11:03:25,380 - data - INFO - end cross val
+2016-01-17 11:03:25,390 - data - INFO - start cross val
+2016-01-17 11:03:25,394 - data - INFO - end cross val
+2016-01-17 11:03:25,405 - data - INFO - start cross val
+2016-01-17 11:03:25,411 - data - INFO - end cross val
+2016-01-17 11:03:25,412 - data - INFO - *********** loop : 39
+2016-01-17 11:03:25,415 - data - INFO - start cross val
+2016-01-17 11:03:25,419 - data - INFO - end cross val
+2016-01-17 11:03:25,423 - data - INFO - start cross val
+2016-01-17 11:03:25,428 - data - INFO - end cross val
+2016-01-17 11:03:25,432 - data - INFO - start cross val
+2016-01-17 11:03:25,436 - data - INFO - end cross val
+2016-01-17 11:03:25,438 - data - INFO - *********** loop : 40
+2016-01-17 11:03:25,441 - data - INFO - start cross val
+2016-01-17 11:03:25,446 - data - INFO - end cross val
+2016-01-17 11:03:25,450 - data - INFO - start cross val
+2016-01-17 11:03:25,454 - data - INFO - end cross val
+2016-01-17 11:03:25,458 - data - INFO - start cross val
+2016-01-17 11:03:25,463 - data - INFO - end cross val
+2016-01-17 11:03:25,464 - data - INFO - *********** loop : 41
+2016-01-17 11:03:25,467 - data - INFO - start cross val
+2016-01-17 11:03:25,471 - data - INFO - end cross val
+2016-01-17 11:03:25,475 - data - INFO - start cross val
+2016-01-17 11:03:25,480 - data - INFO - end cross val
+2016-01-17 11:03:25,483 - data - INFO - start cross val
+2016-01-17 11:03:25,488 - data - INFO - end cross val
+2016-01-17 11:03:25,490 - data - INFO - *********** loop : 42
+2016-01-17 11:03:25,492 - data - INFO - start cross val
+2016-01-17 11:03:25,497 - data - INFO - end cross val
+2016-01-17 11:03:25,501 - data - INFO - start cross val
+2016-01-17 11:03:25,506 - data - INFO - end cross val
+2016-01-17 11:03:25,510 - data - INFO - start cross val
+2016-01-17 11:03:25,515 - data - INFO - end cross val
+2016-01-17 11:03:25,517 - data - INFO - *********** loop : 43
+2016-01-17 11:03:25,519 - data - INFO - start cross val
+2016-01-17 11:03:25,525 - data - INFO - end cross val
+2016-01-17 11:03:25,529 - data - INFO - start cross val
+2016-01-17 11:03:25,534 - data - INFO - end cross val
+2016-01-17 11:03:25,537 - data - INFO - start cross val
+2016-01-17 11:03:25,542 - data - INFO - end cross val
+2016-01-17 11:03:25,544 - data - INFO - *********** loop : 44
+2016-01-17 11:03:25,547 - data - INFO - start cross val
+2016-01-17 11:03:25,552 - data - INFO - end cross val
+2016-01-17 11:03:25,555 - data - INFO - start cross val
+2016-01-17 11:03:25,560 - data - INFO - end cross val
+2016-01-17 11:03:25,564 - data - INFO - start cross val
+2016-01-17 11:03:25,569 - data - INFO - end cross val
+2016-01-17 11:03:25,570 - data - INFO - *********** loop : 45
+2016-01-17 11:03:25,573 - data - INFO - start cross val
+2016-01-17 11:03:25,577 - data - INFO - end cross val
+2016-01-17 11:03:25,581 - data - INFO - start cross val
+2016-01-17 11:03:25,585 - data - INFO - end cross val
+2016-01-17 11:03:25,588 - data - INFO - start cross val
+2016-01-17 11:03:25,593 - data - INFO - end cross val
+2016-01-17 11:03:25,594 - data - INFO - *********** loop : 46
+2016-01-17 11:03:25,596 - data - INFO - start cross val
+2016-01-17 11:03:25,601 - data - INFO - end cross val
+2016-01-17 11:03:25,604 - data - INFO - start cross val
+2016-01-17 11:03:25,612 - data - INFO - end cross val
+2016-01-17 11:03:25,616 - data - INFO - start cross val
+2016-01-17 11:03:25,624 - data - INFO - end cross val
+2016-01-17 11:03:25,626 - data - INFO - *********** loop : 47
+2016-01-17 11:03:25,628 - data - INFO - start cross val
+2016-01-17 11:03:25,633 - data - INFO - end cross val
+2016-01-17 11:03:25,636 - data - INFO - start cross val
+2016-01-17 11:03:25,641 - data - INFO - end cross val
+2016-01-17 11:03:25,645 - data - INFO - start cross val
+2016-01-17 11:03:25,649 - data - INFO - end cross val
+2016-01-17 11:03:25,651 - data - INFO - *********** loop : 48
+2016-01-17 11:03:25,653 - data - INFO - start cross val
+2016-01-17 11:03:25,658 - data - INFO - end cross val
+2016-01-17 11:03:25,662 - data - INFO - start cross val
+2016-01-17 11:03:25,666 - data - INFO - end cross val
+2016-01-17 11:03:25,672 - data - INFO - start cross val
+2016-01-17 11:03:25,677 - data - INFO - end cross val
+2016-01-17 11:03:25,678 - data - INFO - *********** loop : 49
+2016-01-17 11:03:25,681 - data - INFO - start cross val
+2016-01-17 11:03:25,686 - data - INFO - end cross val
+2016-01-17 11:03:25,689 - data - INFO - start cross val
+2016-01-17 11:03:25,694 - data - INFO - end cross val
+2016-01-17 11:03:25,698 - data - INFO - start cross val
+2016-01-17 11:03:25,703 - data - INFO - end cross val
+2016-01-17 11:03:25,712 - data - INFO - ************** end 
+2016-01-17 11:03:25,712 - data - INFO - end
+2016-01-17 19:24:24,459 - data - INFO - start
+2016-01-17 19:24:24,482 - data - INFO - ***** start letter
+2016-01-17 19:25:07,264 - data - INFO - start
+2016-01-17 19:25:07,264 - data - INFO - ***** start letter
+2016-01-17 19:25:54,696 - data - INFO - start
+2016-01-17 19:25:54,696 - data - INFO - ***** start letter
+2016-01-17 19:25:54,697 - data - INFO - *********** loop : 0

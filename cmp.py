@@ -198,7 +198,27 @@ class CmpMl(object):
                 result_idx.append(i)
         x = np.delete(x, result_idx, axis=1)
         return x, y
-                        
+    
+    def index_remove_by_anova(self, x, y):
+        from sklearn.feature_selection import  SelectKBest, f_classif
+        chi2 = SelectKBest(f_classif, k=3)
+        x_train = chi2.fit_transform(x, y)
+        result_idx = []
+        feature_len = len(x[0])
+        for i in range(0, feature_len):
+            column_data = x[:, i]
+            if  np.array_equal(column_data, x_train[:, 0]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 1]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 2]):
+                result_idx.append(i)
+        return result_idx
+    
+    def remove_by_index(self, x, result_idx):
+        x_new = np.delete(x, result_idx, axis=1)
+        return x_new
+                            
     def process_gen_training_data(self, range_index=None):
         result = {}
         log.info('***** start ' + self.dataset_name)
@@ -226,6 +246,11 @@ class CmpMl(object):
                 y_train = pickle.load(open('{}y_train_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
                 x_test_org = pickle.load(open('{}x_test_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
                 y_test_org = pickle.load(open('{}y_test_{}_{}_{}'.format(folder_name, self.dataset_name, d_size, i), 'rb'))
+                
+                index_remove = self.index_remove_by_anova(x_train, y_train)
+                x_train = self.remove_by_index(x_train, index_remove)
+                x_test_org = self.remove_by_index(x_test_org, index_remove)
+                               
                 ml_lst = self.gen_ml_lst(d_size, self.dataset_name)[self.ml_name]
                 ml_cross = self.cross_validation(ml_lst, x_train, y_train)
                 ml_new_train = self.copy_model(ml_cross)

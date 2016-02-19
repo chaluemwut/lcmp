@@ -37,6 +37,40 @@ def m_lst(data_size, machine_learning_name):
 #     plt.boxplot(fsc_acc)
 #     plt.show()
 
+def get_lst_time(data_size, machine_learning_name):
+    ml_name_lst = ['bagging', 'boosted', 'decsiontree', 'randomforest', 'nb', 'svm', 'knn']
+    time_lst = []
+    for ml_name in machine_learning_name:
+        print '********** ', ml_name
+        fsc_per_ml = []
+        dataset_name_lst = ['heart', 'letter', 'austra', 'german', 'sat', 'segment', 'vehicle']
+        if ml_name in ['svm', 'knn']:
+            dataset_name_lst = ['heart', 'austra', 'german', 'segment', 'vehicle']
+        for dataset_name in dataset_name_lst:
+            if ml_name in ['svm', 'knn'] and dataset_name in ['letter', 'sat']:
+                result_obj = []
+                for i in range(1, 6):
+                    result = pickle.load(open('result/all_feature/range/{}_{}_{}.obj'.format(ml_name, dataset_name, i), 'rb'))
+                    result = result[dataset_name]
+                    result_obj.extend(result)                
+            else:
+                result_obj = pickle.load(open('result/all_feature/{}_{}.obj'.format(ml_name, dataset_name), 'rb'))
+            result_lst = result_obj[dataset_name]
+            result_np = np.array(result_lst)
+            if data_size == 75:
+                fsc_per_ml.extend(np.array(result_np[:, 2], dtype='float'))
+            elif data_size == 50:
+                fsc_per_ml.extend(np.array(result_np[:, 7], dtype='float'))
+            elif data_size == 25:
+                fsc_per_ml.extend(np.array(result_np[:, 12], dtype='float'))
+            
+        time_lst.append(fsc_per_ml)
+    return time_lst
+
+def time_result():
+    for m in ['bagging', 'svm', 'boosted', 'decsiontree', 'knn', 'nb']:
+        pass
+        
 def t_test():
 #     random_forest = m_lst(75, ['randomforest'])
 #     print np.mean(random_forest)
